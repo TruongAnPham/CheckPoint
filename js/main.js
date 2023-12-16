@@ -6,12 +6,12 @@ const year = date[0]
 const month = date[1]
 const day = date[2]
 // spread operator
-const tools = {'hammer', '...'}
-const othertools = {'...','...'}
-const alltools = tools.concat(othertools)
-console.log(alltools);
-const all tools = {...tools, ...othertools}
-console.log(alltool)
+const dovat = {'caybua', 'cayriu'}
+const dovatkhac = {'choiquetnha','choilaunha'}
+const tatcadovat = dovat.concat(dovatkhac)
+console.log(tatcadovat);
+const all dovat = {...dovat, ...dovatkhac}
+console.log(tatcadovat)
 
 const animal = [
     {
@@ -27,12 +27,12 @@ const animal = [
     {
         "name": "dadieu",
         "size": "medium",
-        "weight": 150
+        "weight": 200
     },
     {
         "name": "voimamut",
         "size": "big",
-        "weight": 500
+        "weight": 1000
     },
 ]
 
@@ -62,23 +62,6 @@ function restTest(...args) {
 }
 
 restTest(1,2,3,4,5,6);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //Arrow Function
 const user1 = (name) => {
@@ -132,6 +115,7 @@ export const Resgister = async (auth, email, password) => {
     const res = await createUserWithEmailAndPassword(auth, email, password);
     alert("Đăng kí thành công");
     console.log(res);
+    //log ra o f12 
   } catch (error) {
     alert("Đăng kí thất bại");
     console.log(error.code);
